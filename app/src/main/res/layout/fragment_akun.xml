@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fillViewport="true">
+
+    <FrameLayout
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            tools:context=".akun_fragment">
+
+        <android.support.constraint.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                tools:ignore="ContentDescription"
+                android:orientation="vertical">
+
+            <ImageView
+                    android:id="@+id/pola"
+                    android:layout_width="450dp"
+                    android:layout_height="276dp"
+                    android:src="@drawable/pola"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    android:layout_marginBottom="153dp"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.0"/>
+
+            <ImageView
+                    android:id="@+id/boxakun"
+                    android:layout_width="0dp"
+                    android:layout_height="352dp"
+                    android:background="@drawable/boxakun"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    android:layout_marginLeft="8dp" android:layout_marginStart="8dp" android:layout_marginEnd="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/profil"
+                    android:layout_marginBottom="8dp" app:layout_constraintBottom_toBottomOf="parent"/>
+
+            <ImageView
+                    android:id="@+id/profil"
+                    android:layout_width="130dp"
+                    android:layout_height="130dp"
+                    android:background="@drawable/villain"
+                    android:layout_marginTop="8dp"
+                    app:layout_constraintTop_toTopOf="parent" android:layout_marginBottom="8dp"
+                    app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintStart_toStartOf="parent"
+                    android:layout_marginLeft="8dp" android:layout_marginStart="8dp"
+                    app:layout_constraintEnd_toEndOf="parent" android:layout_marginEnd="8dp"
+                    android:layout_marginRight="8dp" app:layout_constraintHorizontal_bias="0.498"
+                    app:layout_constraintVertical_bias="0.082"/>
+
+            <TextView
+                    android:text="@string/pesonal_information"
+                    app:fontFamily="@font/googlesansbold"
+                    android:layout_width="wrap_content"
+                    android:layout_height="23dp" android:id="@+id/personal"
+                    app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="8dp"
+                    android:layout_marginStart="8dp" app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginEnd="8dp" android:layout_marginRight="8dp"
+                    app:layout_constraintHorizontal_bias="0.03"
+                    android:layout_marginBottom="60dp" app:layout_constraintBottom_toTopOf="@+id/textView3"
+                    android:layout_marginTop="8dp" app:layout_constraintTop_toBottomOf="@+id/profil"/>
+            <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:background="@drawable/mailbox"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginEnd="32dp" android:layout_marginRight="32dp"
+                    app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="32dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginBottom="8dp"
+                    app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_bias="0.0"
+                    android:id="@+id/textView4"
+                    android:layout_marginTop="16dp" app:layout_constraintTop_toBottomOf="@+id/textView6"
+                    app:layout_constraintVertical_bias="0.0"/>
+            <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:background="@drawable/mailbox"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginEnd="32dp" android:layout_marginRight="32dp"
+                    app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="32dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginBottom="160dp"
+                    app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_bias="0.0"
+                    android:id="@+id/textView3"
+                    android:layout_marginTop="8dp" app:layout_constraintTop_toTopOf="@+id/boxakun"
+                    app:layout_constraintVertical_bias="0.327"/>
+            <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:background="@drawable/mailbox"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginEnd="32dp" android:layout_marginRight="32dp"
+                    app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="32dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginBottom="108dp"
+                    app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_bias="0.0"
+                    android:id="@+id/textView5"
+                    android:layout_marginTop="16dp" app:layout_constraintTop_toBottomOf="@+id/textView3"
+                    app:layout_constraintVertical_bias="0.0"/>
+            <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="42dp"
+                    android:background="@drawable/mailbox"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    android:layout_marginEnd="32dp" android:layout_marginRight="32dp"
+                    app:layout_constraintStart_toStartOf="parent" android:layout_marginLeft="32dp"
+                    android:layout_marginStart="32dp"
+                    android:layout_marginBottom="72dp"
+                    app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintHorizontal_bias="0.0"
+                    android:id="@+id/textView6"
+                    android:layout_marginTop="16dp" app:layout_constraintTop_toBottomOf="@+id/textView5"
+                    app:layout_constraintVertical_bias="0.0"/>
+
+        </android.support.constraint.ConstraintLayout>
+
+    </FrameLayout>
+</ScrollView>
