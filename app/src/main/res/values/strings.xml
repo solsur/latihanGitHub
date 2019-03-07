@@ -27,5 +27,17 @@
     <string name="home_fragment">Home Fragment</string>
     <string name="account_fragment">Account Fragment</string>
     <string name="transaction_fragment">Transaction Fragment</string>
-    <string name="pesonal_information">Pesonal Information</string>
+    <string name="personal_information">Personal Information</string>
+    <string name="good_morning">Good Morning</string>
+    <string name="march_6_2019">March 6, 2019</string>
+    <string name="category">Category</string>
+    <string name="article">Article</string>
+    <string name="farmer_benefit">Farmer Benefit</string>
+    <string name="content_of_article">Content of Article</string>
+    <string name="strong_female_farmers">Strong Female Farmers</string>
+    <string name="successful_young_farmers">successful young farmers</string>
+    <string name="username">Edit your Username</string>
+    <string name="complete_name">Complete Name</string>
+    <string name="save_profile">Save Profile</string>
+    <string name="cancel">Cancel</string>
 </resources>

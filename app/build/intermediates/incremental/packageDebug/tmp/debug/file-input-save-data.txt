@@ -1,0 +1,7 @@
+#Internal package file, do not edit.
+#Fri Feb 22 23:09:05 ICT 2019
+0.baseType=DIRECTORY
+0.base=C\:\\Users\\faiza\\androidstudioproject\\tantan\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
+0.path=classes.dex
+0.set=DEX
+count=1

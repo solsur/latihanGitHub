@@ -16,9 +16,9 @@ class menu : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_menu)
 
-        var menu : Menu = navigationView.menu
+        val menu : Menu = bottom_navigation.menu
         selectedMenu(menu.getItem(0))
-        navigationView.setOnNavigationItemSelectedListener {
+        bottom_navigation.setOnNavigationItemSelectedListener {
                 item: MenuItem ->  selectedMenu(item)
 
             false
@@ -37,8 +37,8 @@ class menu : AppCompatActivity() {
     }
 
     fun selectedFragment(fragment: Fragment) {
-        var transaction : FragmentTransaction? = supportFragmentManager.beginTransaction()
-        transaction?.replace(R.id.container, fragment)
+        val transaction : FragmentTransaction? = supportFragmentManager.beginTransaction()
+        transaction?.replace(R.id.fragment_container, fragment)
         transaction?.commit()
     }
 }

@@ -19,6 +19,8 @@ private const val ARG_PARAM2 = "param2"
  */
 class akun_fragment : Fragment() {
 
+
+
     companion object {
         fun getInstance() : akun_fragment = akun_fragment()
     }

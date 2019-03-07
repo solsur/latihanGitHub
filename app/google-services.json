@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "228818523566",
+    "firebase_url": "https://fir-androidstudio-1234.firebaseio.com",
+    "project_id": "fir-androidstudio-1234",
+    "storage_bucket": "fir-androidstudio-1234.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:228818523566:android:6858dcaf4f3e02ba",
+        "android_client_info": {
+          "package_name": "com.tantan.timhore"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "228818523566-jda7rp40sree45bkpdi9s6l9k8feaqar.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5dJGEYbuGlLZPTtYbdhY9_njJpZUm4V0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,4 @@
+#Tue Feb 26 22:00:28 ICT 2019
+base.0=C\:\\Users\\faiza\\androidstudioproject\\tantan\\app\\build\\intermediates\\dex\\debug\\mergeDexDebug\\out
+path.0=classes.dex
+renamed.0=classes.dex

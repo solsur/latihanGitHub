@@ -11,8 +11,8 @@ class daftar : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_daftar)
 
-        ///Tombol Registe
-        val register = findViewById<Button>(R.id.register)
+        ///Tombol Register
+        val register = findViewById<Button>(R.id.btn_register)
             register.setOnClickListener {
                 startActivity(Intent(this@daftar, menu::class.java))
             }
